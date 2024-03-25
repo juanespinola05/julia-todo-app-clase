@@ -8,14 +8,48 @@
 body {
   background: linear-gradient(#65E3CB, #4A7EE7);
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor {
   background: white;
   width: 100%;
   max-width: 400px;
-  margin: auto;
+  min-height: 300px;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.75);
+}
+
+.titulo {
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 700; /* ya tiene esto por defecto */
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.renglon {
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.boton {
+  background-color: #8D4AE7;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 32px;
+  color: white
+}
+
+form {
+  display: flex;
+  gap: 5px
 }
