@@ -1,0 +1,21 @@
+/* ? RESETEAR LOS ESTILOS POR DEFECTO DEL NAVEGADOR*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#65E3CB, #4A7EE7);
+  min-height: 100vh;
+}
+
+.contenedor {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.75);
+}
